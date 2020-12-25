@@ -55,8 +55,6 @@ int main() {
     printf("\n冒泡排序：最好时间复杂度 :O(n),最坏时间复杂度:O(n^2),平均时间复杂度:O(n^2),空间复杂度:O(1)");
     printf("\n快速排序：最好时间复杂度 :O(n),最坏时间复杂度:O(n^2),平均时间复杂度:O(n*(log(2)n)),空间复杂度:O(n*(log(2)n))");
     print_(BUbble_,QuickSort_);
-
-
-
+    printf("\n\n程序结束！\n\n");
     return 0;
 }
