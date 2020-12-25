@@ -3,4 +3,4 @@ project(quick_sort C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(quick_sort main.c)
+add_executable(quick_sort main.c head.cpp head.h)
