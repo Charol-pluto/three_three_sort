@@ -192,3 +192,29 @@ void print_ (Info info1,Info info2){
     printf("%s step:%lld cmp:%lld\n",info1.name,info1.step,info1.cmp);
     printf("%s step:%lld cmp:%lld\n",info2.name,info2.step,info2.cmp);
 }
+
+void print123(int n){
+    switch (n) {
+        case 1:
+            printf("\n插入排序：最好时间复杂度 :O(n),最坏时间复杂度:O(n^2),平均时间复杂度:O(n^2),空间复杂度:O(1)");
+            printf("\n希尔排序：最好时间复杂度 :O(n),最坏时间复杂度:O(n^2),平均时间复杂度:O(n^1.25),空间复杂度:O(1)");
+            break;
+        case 2:
+            printf("\n选择排序：最好时间复杂度 :O(n^2),最坏时间复杂度:O(n^2),平均时间复杂度:O(n^2),空间复杂度:O(1)");
+            printf("\n堆排序：最好时间复杂度 :O(n*(log(2)n)),最坏时间复杂度:O(n*(log(2)n)),平均时间复杂度:O(n*(log(2)n)),空间复杂度:O(1)");
+            break;
+        case 3:
+            printf("\n冒泡排序：最好时间复杂度 :O(n),最坏时间复杂度:O(n^2),平均时间复杂度:O(n^2),空间复杂度:O(1)");
+            printf("\n快速排序：最好时间复杂度 :O(n),最坏时间复杂度:O(n^2),平均时间复杂度:O(n*(log(2)n)),空间复杂度:O(n*(log(2)n))");
+            break;
+        default:
+            break;
+
+    }
+}
+void swap_(int * a,int * b){
+    int c;
+    c = *a;
+    *a  = *b;
+    *b = c;
+}
